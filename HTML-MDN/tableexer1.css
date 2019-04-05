@@ -1,0 +1,28 @@
+html{
+    background-color: aquamarine;
+    font-family: Geneva;
+}
+table{
+    border-collapse: collapse;
+    border: 3px solid blueviolet;
+}
+caption{
+    font-size: 1.8rem;
+    padding: 10px;
+}
+thead{
+    font-size: 1.5rem;
+    background-color: rgb(245, 101, 214);
+}
+th{
+    padding: 10px 20px;
+}
+td{
+    font-family: Tahoma;
+    padding: 10px 20px;
+}
+tfoot{
+    background-color: coral;
+    color: brown;
+    font-weight: bolder;
+}

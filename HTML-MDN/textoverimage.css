@@ -1,0 +1,9 @@
+
+.text{
+    background-image: url("birdlogo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 20vw;
+    height: 20vh;
+
+}

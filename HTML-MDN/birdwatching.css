@@ -1,0 +1,66 @@
+body{
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+    font-family: cursive ;
+
+}
+header{
+    color: yellow;
+    font-family: cursive ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7em;
+    background-image: linear-gradient(rgb(94, 253, 94), rgb(0, 238, 255)) ;
+}
+header img{
+    width: 250px;   
+}
+nav{
+    
+}
+ul{
+    list-style: none;
+    display: grid;
+    /* grid-template-columns: repeat(5, minmax(100px, auto)); */
+    grid-gap: 5px;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 0;
+    padding: 0;
+    justify-items: stretch;
+    text-align: center;
+}
+li{
+    background-color: rgb(94, 253, 94);
+    color: darkred;
+}
+.mainbox{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+article{
+    margin: 5px;
+    background-color: rgb(250, 250, 114);
+    padding: 2rem;
+    text-align: center;
+}
+section{
+    margin: 5px;
+    background-color: rgb(250, 250, 114);
+    padding: 2rem;
+    text-align: center;
+
+}
+h2{
+    padding: 0;
+    margin: 0;
+}
+footer{
+    background-image: linear-gradient(rgb(94, 253, 94), rgb(0, 238, 255)) ;
+    text-align: center;
+    border: 1px solid yellow;
+    
+    padding: 0;
+    margin: 0;
+}

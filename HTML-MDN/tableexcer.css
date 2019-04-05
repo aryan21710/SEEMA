@@ -1,0 +1,21 @@
+html{
+    text-align: center;
+    font-family: verdana;
+    font-size: 1em;
+}
+table{
+    border-collapse: collapse;
+    width: 570px;
+    height: 300px;
+    /* margin: 30px; */
+    /* border: 2px solid black; */
+}
+ th, td{
+    border: 1px solid grey;
+    padding: 10px 20px;
+    margin: 0;
+}
+caption{
+    padding: 10px;
+    font-size: 1rem;
+}

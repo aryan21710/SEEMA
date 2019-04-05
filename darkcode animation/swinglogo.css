@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(65, 65, 65); 
+    font-family: Cambria ;
+}
+.popup{
+    width: 30vw;
+    left: 20%;
+    height: auto;
+    position: relative;
+    /* border: 1px solid white; */
+    animation: popup 2s linear,
+        swing 2s 3s ease forwards ;
+    transform-origin: 60px 60px;
+}
+.heart{
+    position: absolute;
+    top: 10vh;
+    left: 45%;
+}
+.info{
+    min-height: 200px;
+    background-color: lavenderblush;
+    width: 500px;
+    position: absolute;
+    top: 18vh;
+    left: 32%;
+    border-radius: 10px;
+    box-shadow: 10px 5px 10px black;
+    text-align: center;
+    padding-top: 15px;
+}
+
+input[type=email]{
+    -webkit-transition: all 0.2s ease-in-out;
+    outline: none;
+    border: 1px solid red;
+    font-size: 1em; 
+}
+input[type=email]:focus{
+    box-shadow: 0 0 5px red;
+    padding: 2px;
+}
+.main{
+    top: -7vh;
+}
+@keyframes popup{
+    0% { top: -7vh; opacity: 0; }
+    70% { top: 5vh}
+    100% {top: 0vh; opacity: 1; }
+}
+@keyframes swing{
+    0% { top : 5vh; transform: rotate(0deg) }
+    50% { top: 5vh ; transform: rotate(90deg) }
+    70% { top: 5vh; transform: rotate(70deg)}
+    100% {top: 5vh; transform: rotate(75deg) }
+}

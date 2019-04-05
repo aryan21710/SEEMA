@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form</title>
+</head>
+<style>
+    form div {
+        margin: 1rem;
+    }
+</style>
+<body>
+    <form action="\my-handling-form-page" method="POST">
+        <div>
+            <label for="name">Type Name:</label>
+            <input type="text" name="User_name" id="name">        
+        </div>
+        <div>
+            <label for="email">E-mail:</label>
+            <input type="e-mail" name="e-mail address" id="email">
+                
+        </div>
+        <div>
+            <label for="message">Message:</label>
+            <textarea name="message" id="message" cols="30" rows="10">Type your
+                message here
+            </textarea>
+        </div>
+    </form>
+    <form>
+            <fieldset>
+              <legend>Fruit juice size</legend>
+              <p>
+                <input type="radio" name="size" id="size_1" value="small">
+                <label for="size_1">Small</label>
+              </p>
+              <p>
+                <input type="radio" name="size" id="size_2" value="medium">
+                <label for="size_2">Medium</label>
+              </p>
+              <p>
+                <input type="radio" name="size" id="size_3" value="large">
+                <label for="size_3">Large</label>
+              </p>
+            </fieldset>
+          </form>
+    
+</body>
+</html>

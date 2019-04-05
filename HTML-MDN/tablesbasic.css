@@ -1,0 +1,17 @@
+
+table {
+    border-collapse: collapse;
+    /* border: 2px solid rgb(200,200,200); */
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+  }
+  .animals{
+      width: 300px;
+      background-color: greenyellow;
+  }
+  .animals, th, td{
+      border: 2px solid black;
+      font-family: aerial;
+      padding: 10px;
+  }
+  

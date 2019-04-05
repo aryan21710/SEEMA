@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    font-family: verdana;
+    /* text-align: center; */
+}
+body{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+main{
+    align-content: center;
+    height: 500px;
+    width: 500px;
+    display: grid;
+    border: 1px solid rebeccapurple;
+    box-shadow: 5px red;
+    
+}
+article{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-items: center;
+}
+.orange{
+    background-image: url('orange.png');
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    justify-self: end ;
+    animation: orange 1s ease-in infinite ;
+}
+@keyframes orange{
+    25% { transform: scale(1)}
+    50%{ transform: scale(1.2)}   
+    75%{ transform: scale(1)}
+    100% { transform: scale(1)} 
+}
+.blue{
+    background-image: url('blue.png');
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    animation: blue 1s ease-in infinite ;
+}
+@keyframes blue{
+    25% { transform: scale(1)}
+    50%{ transform: scale(1)}   
+    75%{ transform: scale(1.2)}
+    100% { transform: scale(1)} 
+}
+.green{
+    background-image: url('green.png');
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    justify-self: start;
+    animation: green 1s ease-in infinite ;
+}
+@keyframes green{
+    25% { transform: scale(1)}
+    50%{ transform: scale(1)}   
+    75%{ transform: scale(1)}
+    100% { transform: scale(1.2)} 
+}
+
